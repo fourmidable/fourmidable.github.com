@@ -1,0 +1,168 @@
+body {
+	margin-top: 1.0em;
+	font-family: Tahoma, Arial, Sans-serif;
+	background-color: white;
+  	color:		#000000;
+}
+#container {
+    margin:		0 auto;
+    width:	700px;
+
+}
+
+#subscribe {
+  width: 520px;
+  margin-left: 180px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding-top: 12px;
+  text-align:center; 
+}
+
+#subscribe input[type="text"] {
+  font-family: arial;
+  padding: 6px;
+  width: 300px;
+  margin-right: 5px;
+  font-size: 1.2em;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+}
+
+#subscribe input[type="submit"] {
+  cursor: pointer;
+  width: 180px;
+  margin-left: 5px;
+  border-radius: 4px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #DED682;
+  border: none;
+  padding: 6px;
+  opacity: 0.85;
+  box-shadow:         2px 2px 3px 2px #ccc;
+}
+
+#subscribe input[type="submit"]:hover {
+  opacity: 1;
+}
+
+#subscribe input[type="submit"]:active {
+  position: relative;
+  top: 2px;
+}
+
+.ps {
+  color: darkgray;
+}
+
+.ps a {
+  text-decoration: none;
+  color: steelblue;
+}
+
+.ps a:hover {
+  text-decoration: underline;
+}
+
+h1 { 
+	font-size: 3.8em; 
+	color: #a04238; 
+	margin-bottom: 0px;
+	text-align: center;
+}
+h1 a{
+
+ text-decoration: none; 
+}
+.small { 
+	font-size: 10pt; }
+
+.navigation {
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:15%;
+	padding-left:15%;
+	width:70%;
+	float:left;
+}
+.box {
+    border: 3px solid #323292;
+	margin:0px;
+
+	text-align: center;
+	width:169px;
+	padding:5px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+
+.box:hover {
+	border: 3px solid #DED682;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #DED682;
+}
+.box a, .box  {
+	text-decoration: none;
+	font-weight: bold;
+	color: #323292
+}
+
+.left {
+float:left;
+}
+.right {
+float: right;
+}
+
+h2 { 
+	font-size: 1.5em; 
+	color: #a04238; 
+	margin-top: 2em;}
+
+a h2 {
+margin-top:0.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+.indent {
+    margin-left:2em;
+}
+.citations a, .footer, .footer a {
+    text-decoration:none;
+	color:black;
+	font-size: 0.9em;
+}
+.citations a:hover,  .footer a:hover {
+	color:#8B0000;
+}
+
+h3 { 
+	text-align: center;
+	color: #a04238; 
+}
+a { 
+	color: #a04238; 
+}
+
+hr { 
+	height: 10px;
+	background-color: #8B0000;
+	margin-bottom: 20px;
+}
+
+
+.footer, .footer a {
+	text-align:center; 
+	font-size:0.8em;
+}
+
+.highlight {
+	color:		#8B0000;
+}
